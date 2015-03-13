@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<addon id="plugin.video.weiqitv"
+       name="围棋TV插件"
+       version="0.0.1"
+       provider-name="gzhm">
+  <extension point="xbmc.python.pluginsource" library="weiqitv.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>WeiQiTV plugin</summary>
+    <summary lang="zh">围棋TV插件</summary>
+    <description>Weiqi TV plugin, python script</description>
+    <description lang="zh">围棋TV插件，python script</description>
+    <disclaimer>For demonstration only</disclaimer>
+  </extension>
+</addon>
