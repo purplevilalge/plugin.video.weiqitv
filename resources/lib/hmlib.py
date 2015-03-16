@@ -11,7 +11,6 @@ def get_menu_level_first():
     url = 'http://www.weiqitv.com'
     d = pq(url)
 
-    items = d("div.menu div li a.menu_one")
-    
+    #items = d("div.menu div li a.menu_one")
 
-    print 'get_menu_level_first function'
+    return map(lambda x: [d(x).text(), d(x).attr("href")], d("div.menu div li a.menu_one"))

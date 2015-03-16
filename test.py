@@ -16,4 +16,4 @@ sys.path.append (__resource__)
 
 import hmlib 
 
-hmlib.get_menu_level_first()
+print hmlib.get_menu_level_first()
